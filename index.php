@@ -29,7 +29,7 @@
             </div>
             <div class="contact my-4">
               <label for="contact">Telephone Number: </label>
-              <input type="tel" name="contact" id="contact" class="form-control" pattern="[11]" required>
+              <input type="tel" name="contact" id="contact" class="form-control" maxlength="11" placeholder="12345678901" required>
             </div>
             <div class="address my-4">
               <label for="address">Address: </label>
