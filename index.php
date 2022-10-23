@@ -14,7 +14,7 @@
             <h1 class="text-center">Contact Us</h1>
             <hr class="w-25 m-auto bg-dark">
         </div>
-        <form action="action.php" method="POST" autocomplete="off">
+        <form action="database.php" method="POST">
             <div class="first my-4">
               <label for="firstname">First Name: </label>
               <input type="text" name="firstname" id="firstname" class="form-control" required>
@@ -39,7 +39,7 @@
               <label for="message">Message: </label>
               <textarea name="message" id="message" class="form-control" cols="30" rows="5"></textarea>
             </div>
-            <button class="btn btn-success">Send Message</button>
+            <button class="btn btn-success" name ="submit">Send Message</button>
         </form>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
