@@ -34,7 +34,11 @@
             </div>
             <div class="input-field">
               <label for="address" class = "input-label">Subject: </label>
-              <input type="text" name="address" id="address" class="input" required>
+              <select name = "address"> 
+                <option type="text">Enquiry</option>
+                <option type="text">Call Back</option>
+                <option type="text">Complaint</option>
+              </select>
             </div>
             <div class="input-field">
               <label for="message" class = "input-label">Message: </label>
