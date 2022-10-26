@@ -31,7 +31,7 @@
             </div>
             <div class="input-field">
               <label for="subject" class = "input-label">Subject: </label>
-              <select name = "subject"> 
+              <select name = "subject" required> 
                 <option type="text">Enquiry</option>
                 <option type="text">Call Back</option>
                 <option type="text">Complaint</option>
@@ -39,7 +39,7 @@
             </div>
             <div class="input-field">
               <label for="message" class = "input-label">Message: </label>
-              <textarea name="message" id="message" class="input" placeholder="some important text worthy of someone's attention"></textarea>
+              <textarea name="message" id="message" class="input" placeholder="some important text worthy of someone's attention" required></textarea>
             </div>
             <button class="btn" name ="submit">Send Message</button>
         </form>
